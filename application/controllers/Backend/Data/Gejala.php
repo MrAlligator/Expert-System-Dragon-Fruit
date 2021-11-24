@@ -15,7 +15,7 @@ class Gejala extends CI_Controller
     {
         //PAGINATION
         //Config
-        $config['base_url'] = 'http://localhost/ESDF/backend/data/gejala/index';
+        $config['base_url'] = 'http://localhost/Expert-System-Dragon-Fruit/backend/data/gejala/index';
         $config['total_rows'] = $this->model_gejala->hitung_jumlah_gejala();
         $config['per_page'] = '6';
 
